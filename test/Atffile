@@ -1,0 +1,7 @@
+Content-Type: application/X-atf-atffile; version="1"
+X-NMD-Id: "$Id: //depot/nmd/head/apps/tests/libarpc/Atffile#1 $"
+
+prop: test-suite = "libarpc"
+
+tp: t_xdr
+tp: t_rpc

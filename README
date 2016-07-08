@@ -1,0 +1,23 @@
+
+If building from the revision control system automake/autoconf infrastructure must be setup, run these commands:
+
+aclocal
+libtoolize --automake -c 
+autoconf
+autoheader
+automake -ac
+
+At this point, the tree is roughly in it's src distribution state.
+
+Run:
+
+./configure CFLAGS=-Wall to setup to build for the local platform.
+
+Then 
+
+make
+
+make install
+
+(or whatever)
+
